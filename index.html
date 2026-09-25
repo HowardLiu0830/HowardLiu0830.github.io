@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Howard Liu</title>
+<meta name="author" content="Yaowenqi Liu">
+<meta name="description" content="Yaowenqi (Howard) Liu. Master of Computer Science at UIUC, working on reliable LLM agents and AI for Science.">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192x192.png">
+<link rel="icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon-180x180.png">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <span class="nav__name">Howard Liu</span>
+    <span class="nav__links">
+      <a href="#research">Research</a>
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
+    </span>
+  </div>
+</nav>
+
+<div class="page">
+
+  <!-- Intro -->
+  <div class="intro">
+    <div class="intro__text">
+      <h1 class="name">Yaowenqi (Howard) Liu</h1>
+      <p class="tagline">Master of Computer Science, University of Illinois Urbana-Champaign</p>
+      <p>
+        I am a Master of Computer Science student at the
+        <a href="https://illinois.edu/">University of Illinois Urbana-Champaign</a> (UIUC),
+        where I also completed my undergraduate degree in Computer Science &amp; Statistics.
+        I am a research intern working with Professor <a href="https://www.tongzhang-ml.org/">Tong Zhang</a>.
+      </p>
+      <p>
+        My research is on making <strong>LLM agents reliable</strong> from verifiable
+        feedback like <a href="https://lean-lang.org/">Lean&nbsp;4</a>, retrieved evidence,
+        and uncertainty quantification.
+      </p>
+      <div class="links">
+        <a href="mailto:yl140@illinois.edu">Email</a>
+        <a href="https://scholar.google.com/citations?user=iEWFxzoAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://github.com/HowardLiu0830">GitHub</a>
+      </div>
+    </div>
+    <div class="intro__photo">
+      <img src="images/profile.png" alt="Yaowenqi Liu">
+    </div>
+  </div>
+
+  <!-- Research -->
+  <div class="section" id="research">
+    <div class="heading">Research Interests</div>
+    <div class="cards">
+      <div class="card">
+        <div class="card__title">Reliable LLM Agent</div>
+        <p>Making LLM agents reliable. I study this with verifiable feedback such as
+           retrieved evidence, uncertainty estimates, formal languages, and reward-guided
+           training.</p>
+      </div>
+      <div class="card">
+        <div class="card__title">AI4Sci</div>
+        <p>Agents for automated research in machine learning: empirical work grounded in
+           code execution and retrieved literature, and theoretical work checked with
+           <a href="https://lean-lang.org/">Lean&nbsp;4</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="section" id="education">
+    <div class="heading">Education</div>
+    <div class="edu">
+      <div class="edu__row">
+        <span class="edu__dot"></span>
+        <span class="edu__text">
+          <span class="edu__degree">Master of Computer Science</span><br>
+          <span class="edu__meta">University of Illinois Urbana-Champaign</span>
+        </span>
+        <span class="edu__gpa">GPA 3.9/4.0</span>
+      </div>
+      <div class="edu__row">
+        <span class="edu__dot"></span>
+        <span class="edu__text">
+          <span class="edu__degree">B.S. in Computer Science &amp; Statistics</span><br>
+          <span class="edu__meta">University of Illinois Urbana-Champaign, Highest Distinction</span>
+        </span>
+        <span class="edu__gpa">GPA 3.9/4.0</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Publications -->
+  <div class="section" id="publications">
+    <div class="heading">Publications</div>
+
+    <p class="section-note"><sup>*</sup> Co-first author.</p>
+
+    <div class="pub">
+      <p class="pub__title"><a href="https://arxiv.org/abs/2507.08870">GUIDE: Towards Scalable Advising for Research Ideas</a></p>
+      <p class="pub__meta">
+        <span class="badge badge--accepted">ACL 2026 Main</span>
+        <a href="https://arxiv.org/abs/2507.08870">[arXiv]</a>
+        <a href="https://aclanthology.org/2026.acl-long.1984/">[ACL Anthology]</a>
+      </p>
+      <span class="pub__authors"><strong>Yaowenqi Liu</strong><sup>*</sup>, Bingxu Meng<sup>*</sup>, Rui Pan<sup>*</sup>, Yuxing Liu, Jerry Huang, Jiaxuan You, Tong Zhang.</span>
+      <p class="pub__desc">An LLM-based system that evaluates the novelty and significance of ML papers. It retrieves evidence from a 200K-paper database, and its 7B reviewer model is trained with RLHF to correct the optimistic bias of LLM-generated reviews.</p>
+    </div>
+
+    <div class="pub">
+      <p class="pub__title"><a href="https://arxiv.org/abs/2510.13918">Optimal Aggregation of LLM and PRM Signals for Efficient Test-Time Scaling</a></p>
+      <p class="pub__meta">
+        <span class="badge badge--accepted">ICLR 2026</span>
+        <a href="https://arxiv.org/abs/2510.13918">[arXiv]</a>
+      </p>
+      <span class="pub__authors">Peng Kuang, Yanli Wang, Xiaoyu Han, <strong>Yaowenqi Liu</strong>, Kaidi Xu, Haohan Wang.</span>
+      <p class="pub__desc">A theoretical framework showing the optimal test-time scaling strategy is a weighted majority vote over LLM and PRM signals, with calibrated weights that penalize low-quality responses.</p>
+    </div>
+
+    <div class="pub">
+      <p class="pub__title"><a href="https://arxiv.org/abs/2604.13346">AgentSPEX: An Agent SPecification and EXecution Language</a></p>
+      <p class="pub__meta">
+        <span class="badge badge--preprint">Preprint 2026</span>
+        <a href="https://arxiv.org/abs/2604.13346">[arXiv]</a>
+      </p>
+      <span class="pub__authors">Pengcheng Wang<sup>*</sup>, Jerry Huang<sup>*</sup>, Jiarui Yao<sup>*</sup>, Rui Pan, Peizhi Niu, <strong>Yaowenqi Liu</strong>, Ruida Wang, Renhao Lu, Yuwei Guo, Tong Zhang.</span>
+      <p class="pub__desc">A YAML-based language for specifying LLM-agent workflows with explicit control flow, typed steps, parallelism and reusable submodules, paired with a customizable agent harness.</p>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
