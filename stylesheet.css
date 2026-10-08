@@ -153,6 +153,7 @@ a:focus, a:hover { color: var(--link-hover); }
 
 .pub { padding: 14px 0; border-bottom: 1px solid var(--rule); }
 .pub:last-of-type { border-bottom: none; }
+
 .pub__title { font-weight: 700; font-size: 17.5px; line-height: 1.45; margin: 0; }
 .pub__title a { color: var(--ink); }
 .pub__title a:hover { color: var(--link-hover); }
@@ -164,6 +165,7 @@ a:focus, a:hover { color: var(--link-hover); }
 
 .pub__authors { display: block; margin: 5px 0 0; color: #697b83; font-size: 15.5px; line-height: 1.55; }
 .pub__authors strong { color: var(--ink); font-weight: 700; }
+.pub__authors .author-self { text-decoration: underline; text-underline-offset: 3px; }
 .pub__desc { margin: 6px 0 0; color: var(--ink-soft); font-size: 15.5px; }
 
 .badge {
